@@ -251,7 +251,7 @@ val SC_IME_INLINE=1
 get int GetIMEInteraction=2678(,)
 
 # Choose to display the the IME in a winow or inline.
-set void SetIMEInteraction=2679(int imeInteraction,) 
+set void SetIMEInteraction=2679(int imeInteraction,)
 
 enu MarkerSymbol=SC_MARK_
 val MARKER_MAX=31
@@ -3034,6 +3034,8 @@ val SCE_RB_STDIN=30
 val SCE_RB_STDOUT=31
 val SCE_RB_STDERR=40
 val SCE_RB_UPPER_BOUND=41
+val SCE_RB_CONSTANT=42
+val SCE_RB_BIGCONSTANT=43
 # Lexical states for SCLEX_VB, SCLEX_VBSCRIPT, SCLEX_POWERBASIC
 lex VB=SCLEX_VB SCE_B_
 lex VBScript=SCLEX_VBSCRIPT SCE_B_

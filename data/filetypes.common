@@ -26,7 +26,7 @@ current_line=current_line
 # translucency for the current line(first argument) and the selection (second argument)
 # values between 0 and 256 are accepted. Note for Windows 95, 98 and ME users:
 # keep this value at 256 to disable translucency otherwise Geany might crash
-translucency=256;256
+translucency=45;120
 
 # style for a highlighted line (e.g when using Goto line or goto tag)
 marker_line=marker_line
@@ -48,7 +48,7 @@ caret=caret
 
 # width of the caret(the blinking cursor)
 # width in pixels, use 0 to make it invisible, maximum width is 3
-caret_width=1
+caret_width=2
 
 # set foreground and background colour of indentation guides
 indent_guide=indent_guide
@@ -103,16 +103,16 @@ whitespace_chars=\s\t!\"#$%&'()*+,-./:;<=>?@[\\]^`{|}~
 default=0x000000;0xffffff;false;false
 error=0xff0000;0xBFBFBF;false;italic
 
-selection=0x000000;0xc0c0c0;false;true
-current_line=0x000000;0xf0f0f0;true;
-brace_good=0x0000ff;0xFFFFFF;true;false
+selection=0x000000;0x808080;false;true
+current_line=0x000000;0x808080;true;
+brace_good=0x0000ff;0x808080;false;false
 brace_bad=0xff0000;0xFFFFFF;true;false
 margin_line_number=0x000000;0xd0d0d0;
 margin_folding=0x000000;0xdfdfdf;
 fold_symbol_highlight=0xffffff
 indent_guide=0xc0c0c0;;
-caret=0x000000;0x000000;false;
-marker_line=0x000000;0xffff00;
+caret=0xff1111;0x000000;false;
+marker_line=0x000080;0xffff00;
 marker_search=0x000000;0x0000f0;
 marker_mark=0x000000;0xb8f4b8;
 call_tips=0xc0c0c0;0xffffff;false;false
@@ -140,11 +140,20 @@ keyword_2=0x991111;;true;false
 keyword_3=keyword_1
 keyword_4=keyword_1
 
+sndkeyword=0x000060;;false;false
+sndkeyword_1=sndkeyword
+sndkeyword_2=0x991111;;false;false
+sndkeyword_3=sndkeyword_1
+sndkeyword_4=sndkeyword_1
+
 identifier=default
 identifier_1=identifier
 identifier_2=identifier_1
 identifier_3=identifier_1
 identifier_4=identifier_1
+
+constant=0x005050
+bigconstant=0x803080
 
 string=0xff8000
 string_1=string
